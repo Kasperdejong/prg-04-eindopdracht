@@ -46,7 +46,7 @@ export class Game extends Engine {
     createGameScene() {
         const gameScene = new Scene();
 
-        Resources.themeSong.play();
+        //Resources.themeSong.play();
 
 
         gameScene.on('activate', () => {
